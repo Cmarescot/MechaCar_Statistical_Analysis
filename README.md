@@ -16,14 +16,12 @@ Does this linear model predict mpg of MechaCar prototypes effectively? Why or wh
 
 ## Summary Statistics on Suspension Coils
 ![total_summary_df](https://github.com/Cmarescot/MechaCar_Statistical_Analysis/blob/main/challengePics/total_summary_df.png)
-
 The manufacturing data for all manufacturing lots in total meet the design specifications (does not exceed 100 pounds per square inch) with a variance of 62.29 per square inch. 
+
 ![lot_summary_df](https://github.com/Cmarescot/MechaCar_Statistical_Analysis/blob/main/challengePics/lot_summary_df.png)
 Individually, lot 1 and 2 meet the design specifications with variances of  0.98 & 7.47 per square inch respectively. Lot 3 however does NOT meet the specifications with a variance of  170.29 per sqare inch. 
 
 ## T-Tests on Suspension Coils
-
-# Determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
 
 ![test_all](https://github.com/Cmarescot/MechaCar_Statistical_Analysis/blob/main/challengePics/test_all.png)
 Based on our t test, the mean PSI across all manufacturing lots is statistically similar to our population mean as can be proven by our p-value of 0.06. Our p value is statistically insignificant, therefore we do not have enough evidence to reject our null hypothesis 
